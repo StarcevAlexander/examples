@@ -1,0 +1,6 @@
+.accordion-button::after{
+    background-image: url(icon-star-a.png);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(icon_metro.png);
+}
